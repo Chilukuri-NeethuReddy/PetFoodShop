@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <title>Pet care</title>
+    <style>
+        * {
+            margin: 0;
+            border: border-box;
+            font-family:Arial, Helvetica, sans-serif;
+          }
+          .shop-button {
+            position: relative;
+            top: 230px;
+            margin-left: 1200px;
+        }
+        .shop-button button {
+            height: 40px;
+            width: 130px;
+            padding: 5px;
+            color: black;
+            background-color: rgba(0, 0, 0, 0.1);
+            border: 3px solid black;
+            border-radius: 0px 20px 20px 15px;
+            font-size: larger;
+        }
+        .shop-button button:hover {
+            color: coral;
+            background-color: white;
+            border: 1px solid black;
+            transition-duration: 0.8s;
+        }
+        .products {
+            height: 2200px;
+            background-color: gray;
+        }
+
+        .p1 {
+            height: 200px;
+            width: 55%;
+            position: relative;
+            top: 230px;
+            background-color: rgba(18, 72, 4, 0.758);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .img {
+            height: 400px;
+            width: 350px;
+            padding: 5px;
+            background-color: aqua;
+            position: relative;
+            bottom: 2px;
+            transition-duration: 0.5s;
+        }
+
+        .img:hover {
+            transform: scale(1.07);
+        }
+        .p2 {
+            height: 200px;
+            width: 55%;
+            position: relative;
+            top: 230px;
+            margin-left: 678px;
+            margin-top: 170px;
+            background-color: rgba(18, 72, 4, 0.758);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .b1 {
+            height: 40px;
+            width: 130px;
+            padding: 5px;
+            color:aliceblue;
+            margin: 30px 0px 15px 30px;
+            background-color:  rgba(18, 72, 4, 0.758);
+            border: 3px solid rgb(157, 157, 157);
+            border-radius: 0px 20px 20px 15px;
+            font-size: larger;
+            transition-duration: 0.5s;
+        }
+        .b1:hover {
+            color: rgb(0, 0, 0);
+            background-color: white;
+            border: 1px solid black;
+            transition-duration: 0.8s;
+            transform: scale(1.1);
+        }
+        .our-pros {
+            height: 350px;
+            display: flex;
+            justify-content: center;
+        }
+        .img1 {
+            height: 300px;
+            width: 300px;
+            margin-left: 30px;
+            border-radius: 5px;
+            transition-duration: 0.5s;
+        }
+        .img1:hover {
+            transform: scale(1.07);
+        }
+        .prices {
+            display: flex;
+            justify-content: center;
+        }
+        .explore-more {
+            display: flex;
+            justify-content: center;
+        }
+        .explore-more .b1 {
+            width: 200px;
+            height: 40px;
+            background-color: rgba(48, 212, 3, 0.758);
+            color: black;
+        }
+        .explore-more .b1:hover {
+            background-color: rgba(40, 178, 2, 0.758);
+            color: aliceblue;
+        }
+        .copyright {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="products">
+        <h1 style="color: rgb(255, 249, 240); text-align: center; position: relative; top: 20px;">Pet Foods</h1>
+        <div class="p1 p">
+            <div class="img" style="background-image: url('https://icrowdnewswire.com/wp-content/uploads/2021/01/3485-1611229702.jpg'); background-size: cover;">
+
+            </div>
+
+            <div class="content" style="margin-left: 25px;">
+                <h3 style="margin-left: 15px; color: white;">Premium Pet Food</h3>
+                <p style="margin-left: 15px; color: rgb(183, 183, 183); margin-top: 15px;">Get to know about best <br> best pet foods.</p>
+                <button class="b1" onclick="alert('Item added to cart')" >Add to cart</button>
+            </div>
+        </div>
+        <div class="p2 p">
+            <div class="content">
+                <h3 style="margin-right: 35px; color: white;">Air-died Dog Food</h3>
+                <p style="margin-right: 35px; color: rgb(183, 183, 183); margin-top: 15px;">Best Nutritious Foods for <br> Dogs and cute littlepuppies</p>
+                <button class="b1" onclick="alert('Item added to cart')" >Add to cart</button>
+            </div>
+
+            <div class="img" style="background-image: url('https://shiptonsbigr.com/content/products/ic_1605811445_1600x1200_false.jpg'); background-size: cover;">
+
+            </div>
+        </div>
+        <div class="p1 p" style="margin-top: 170px;">
+            <div class="img" style="background-image: url('https://i.pinimg.com/originals/c2/30/23/c2302363e3f0425f0e5b522e661857f3.jpg'); background-size: cover;">
+
+            </div>
+
+            <div class="content" style="margin-left: 25px;">
+                <h3 style="margin-left: 15px; color: white;">Air-Died Cat Food</h3>
+                <p style="margin-left: 15px; color: rgb(183, 183, 183); margin-top: 15px;">Get Your cat <br> the best food</p>
+                <button class="b1" onclick="alert('Item added to cart')" >Add to cart</button>
+            </div>
+        </div>
+        <div class="hr" style="background-color: white; height: 10px; margin-top: 500px;"></div>
+        <h1 style="color: cornsilk; text-align: center; margin-bottom: 70px; position: relative; top: 30px;">Our Products</h1>
+        <div class="our-pros">
+            <div class="img1" style="background-image: url('https://s7d1.scene7.com/is/image/PETCO/2401852-Center-1'); background-size: cover;"></div>
+            <div class="img1" style="background-image: url('https://images-na.ssl-images-amazon.com/images/I/71Ie9Fb3XXL.jpg'); background-size: cover;"></div>
+            <div class="img1" style="background-image: url('https://th.bing.com/th/id/OIP.h8z_4bU-veP4riTweNutBAHaHa?pid=ImgDet&w=1500&h=1500&rs=1'); background-size: cover;"></div>
+
+        </div>
+        <div class="prices" style="cursor: pointer;">
+            <p style="color: black;">Air-Dried Food For Dog At Rs 599/- </p>
+            <p style="color: black; margin-left: 95px;">Air-Dried Food For cat at Rs 475/-</p>
+            <p style="color: black; margin-left: 150px;">Air-Dried foods at  Rs 499/-</p>
+        </div>
+
+        <div class="explore-more">
+            <button class="b1">see More Products</button>
+        </div>
+        <div class="hr" style="background-color: white; height: 10px; margin-top: 45px;"></div>
+
+        <div class="copyright">
+            <p style="margin-top: 40px; cursor: pointer;">© 1996-2023, PetCare.com, Inc, or its afflicates</p>
+        </div>
+    </div>
+</body>
+</html>

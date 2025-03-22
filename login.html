@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Login page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            height: 1000px;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image: url('https://c8.alamy.com/comp/HNB4AR/seamless-pet-pattern-hand-drawing-vector-HNB4AR.jpg');
+            background-size: cover;
+            
+        }
+
+        .login-container {
+            width: 450px;
+            background-color: #fff;
+            padding: 4%;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            text-align: center;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 18px;
+            box-sizing: border-box;
+            border: 1px solid #111010;
+            border-radius: 4px;
+        }
+
+        button {
+            background-color: green;
+            width: 100%;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-bottom: 28px;
+        }
+
+        button:hover {
+            background-color:rgb(0, 50, 43);
+        }
+
+        .outer {
+            width: 350px;
+            height: 990px;
+            
+        }
+        .logo {
+            width: 120px;
+            height: 100px;
+            margin-bottom: 30px;
+            margin-left: 90px;
+            background-image: url('data:image/jpeg;base64,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');
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="outer">
+        <div class="logo">
+
+        </div>
+    <div class="login-container">
+        <h2 style="text-align: left;">Login into your account</h2>
+        <form id="loginForm">
+            <p style="font-size: 13px; font-weight: bold; text-align: left;">Username </p>
+            <input type="text" id="name" placeholder="Name" required>
+            <p style="font-size: 13px; font-weight: bold; text-align: left;">Mobile</p>
+            <input type="tel" id="mobile" placeholder="Mobile Number" required>
+            <p style="font-size: 13px; font-weight: bold; text-align: left;">Password (Must be Atleast 6 charecters)</p>
+            <input type="password" id="password" placeholder="Password" required>
+            <button type="button" onclick="validateLogin()">Login</button>
+        </form>
+    </div>
+    </div>
+
+<script>
+
+    function validateLogin() {
+        var name = document.getElementById("name").value;
+        var mobile = document.getElementById("mobile").value;
+        var password = document.getElementById("password").value;
+
+        if(name === '' ){
+            alert('Invalid name,please enter valid name');
+        }
+        if(mobile === '' || mobile.length<10){
+            alert('Invalid number,please enter valid mobile number');
+        }
+        if(password === '' || password.length<6){
+            alert('Invalid password,please enter valid password');
+        }
+        else {
+            alert("You have logged in successfully! . Welcome, " + name + "!");
+            window.location.href='petcare.html';
+        }
+        
+       
+    }
+</script>
+
+</body>
+</html>
