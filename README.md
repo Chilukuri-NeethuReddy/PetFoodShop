@@ -39,4 +39,8 @@ For inquiries, please reach out via the **Contact Us** page or email at: **chilu
 
 ---
 Thank you for visiting **PetFoodCare**! 🐶🐱
+![Screenshot 2023-12-02 112125](https://github.com/user-attachments/assets/08aa8368-e7fd-4588-bd1d-61e2bbf5b882)
+![Screenshot 2023-12-02 112023](https://github.com/user-attachments/assets/683a05a8-8c91-4d8d-8157-bb23a5c23144)
+![Screenshot 2023-12-02 111932](https://github.com/user-attachments/assets/592dfd64-63ba-448e-aca1-9db2c33b9187)
+
 
